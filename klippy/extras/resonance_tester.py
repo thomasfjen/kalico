@@ -316,7 +316,8 @@ class ResonanceTester:
             self.accel_chip_names = [("xy", accel_chip.strip())]
         else:
             raise config.error(
-                "No accelerometer chips configured. At least one of accel_chips, accel_chip, or accel_chip_x/accel_chip_y must be specified."
+                "No accelerometer chips configured. At least one of accel_chips,"
+                " accel_chip, or accel_chip_x/accel_chip_y must be specified."
             )
 
         self.max_smoothing = config.getfloat("max_smoothing", None, minval=0.05)
