@@ -180,7 +180,7 @@ To do this, add the Kalico repo to KIAUH's custom repository config with the fol
 
 1. Setup kalico as repository in KIAUH
 - `cd ~/kiauh`
-- `sudo nano kiauh.cfg`
+- `nano kiauh.cfg`
 - add `https://github.com/KalicoCrew/kalico, main` for the main branch/
 
     or `https://github.com/KalicoCrew/kalico, bleeding-edge-v2` for the bleeding edge branch
